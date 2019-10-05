@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "dependencies": {
     "stage0": "0.0.24",
-    "swiss": "1.1.3",
+    "swiss": "1.2.0",
     "swiss-logger": "0.1.0"
   }
 }

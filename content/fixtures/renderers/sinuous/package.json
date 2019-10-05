@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "sinuous": "0.9.0",
-    "swiss": "1.1.3"
+    "sinuous": "0.15.3",
+    "swiss": "1.2.0"
   }
 }
