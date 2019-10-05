@@ -1,7 +1,7 @@
 import { compose, element, renderer } from 'swiss';
-import { html, render } from 'swiss/html';
 import { context, useSelector, useActions } from 'swiss-redux';
 import { createStore } from 'redux';
+import { h, render } from 'preact';
 
 function counter(state = 0, action) {
   switch (action.type) {
