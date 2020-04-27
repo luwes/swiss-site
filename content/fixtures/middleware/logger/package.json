@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "stage0": "0.0.24",
-    "swiss": "1.2.0",
+    "stage0": "0.0.25",
+    "swiss": "1.2.1",
     "swiss-logger": "0.1.0"
   }
 }

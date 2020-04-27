@@ -1,7 +1,7 @@
 import { compose, element, renderer } from 'swiss';
 import { context, useSelector, useActions } from 'swiss-redux';
 import { createStore } from 'redux';
-import { h, render } from 'preact';
+import { html, render } from 'preact';
 
 function counter(state = 0, action) {
   switch (action.type) {
@@ -52,7 +52,7 @@ const enhance = compose(
   // store context will be tied to the element. Each element could potentially
   // have their own store.
   // context(createStore(counter)),
-  renderer(render)
+  renderer((root, html) => render(html, root))
 );
 
 element('s-counter', Counter, enhance);

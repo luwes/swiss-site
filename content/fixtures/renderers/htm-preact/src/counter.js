@@ -1,4 +1,4 @@
-import { h, render } from 'preact';
+import { html, render } from 'preact';
 import { element, renderer } from 'swiss';
 import { useState } from 'swiss/hooks';
 
@@ -20,4 +20,4 @@ function Counter() {
   `;
 }
 
-element('s-counter', Counter, renderer(render));
+element('s-counter', Counter, renderer((root, html) => render(html, root)));

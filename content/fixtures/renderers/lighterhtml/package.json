@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.2.0",
   "dependencies": {
-    "lighterhtml": "1.2.1",
-    "swiss": "1.2.0"
+    "lighterhtml": "3.0.0",
+    "swiss": "1.2.1"
   }
 }
